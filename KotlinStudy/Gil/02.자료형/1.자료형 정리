@@ -1,0 +1,64 @@
+https://whyprogrammer.tistory.com/560
+
+1. 정수형
+    - Byte  (-128 ~ 127)
+    - Short (-32768 ~ 32767)
+    - Int   (가장 자주 사용하는 정수 자료형)
+    - Long  (Byte < ... < Long 숫자의 범위가 넓어진다.)
+    <양수만 표현>
+         - UByte    (0 ~ 255)
+         - Ushort   (0 ~ 65535)
+         - UInt
+         - ULong
+
+    1Byte = 8bit
+
+    비트 1, 비트 2   = 4
+     2   X   2     = 4
+    비트 1, 비트 2, 비트 3  = 8
+      2   X   2  X   2    = 8
+     -> 2, 4, 8, 16, 32, 64, 128, 256 -> 반을 나눠 음수와 양수를 표현
+
+2. 실수형
+    - Float     -> 4Byte
+    - Double    -> 8Byte
+
+3. 논리형
+    - Boolean (True, False)
+
+4. 문자형(char)
+    - 하나의 글자자
+    - 'A', '가'
+
+5. 문자열형(String)
+   - 여러 글자
+    - "안녕하세요", "abcdefg"
+
+
+6. 자료형 추론 ( 변수 선언 시 자료형을 언급해줘야 한다.)
+ var changeYes = 100
+ => var changeYes : Int = 100
+ var 변수명 : 자료형 = 값
+ 하지만 자료형을 적지 않은 상태의 변수를 선언한 var changeYes = 100 형태,
+ 즉 정수의 경우 Kotlin에서는 Int로 추론한다.
+
+ * 추론힌트를 주는 방법
+ var number1 = 100      -> Int
+ var number2 = 100L     -> Long
+ var number3 = 0X100    -> 16진수
+ var number4 = 200u     -> UByte
+
+
+ var bigNumber : Int = 1359713867318 -> 보기 힘들다
+ var bigNumber : Int = 1_359_713_867_318 -> _를 사용해서 자리수를 표현 할 수 있다.
+
+
+7. Int와 Integer
+기본형 Int(원시타입) 참조형 Integer(래퍼 타입)은 코틀린에서 따로 구분하지 않는다.
+하지만 JVM에서 실행되는 코틀린도 Integer를 인식한다.
+
+- kotlin에서 null값 허용
+var number: Int? = null
+- Java로 변환
+Integer price = (Integer)null;
+
