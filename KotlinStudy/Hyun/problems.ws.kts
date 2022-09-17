@@ -1,5 +1,5 @@
 var a : Int = 5
-//var b : Int = 5
+var b : Int = 5
 //var b : Int = 7
 var c : Boolean = true
 
