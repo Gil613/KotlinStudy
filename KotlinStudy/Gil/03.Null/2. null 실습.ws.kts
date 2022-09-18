@@ -7,12 +7,12 @@ println(number)
 //val number2: Int = null
 //println(number2)
 
-val number3: Int? = 3 + 5
+val number3: Int? = 2 + 5
 val number4: Int? = 10
 
 //Operator call corresponds to a dot-qualified call 'number3.plus(number4)' which is not allowed on a nullable receiver 'number3'.
 //Type mismatch: inferred type is Int? but Int was expected
-//val number5: Int? = number3 + number4
+//val number5: Int = number3 + number4
 //println(number5)
 
 

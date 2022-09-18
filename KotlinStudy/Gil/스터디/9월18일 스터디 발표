@@ -1,0 +1,13 @@
+1. 새로운 개념 습득
+- 각 자료형 변수 형태 및 선언 방법
+- 메소드 생성 방법
+- Kotlin의 NullSafty 개념 -> Nullable, Non-Null
+- 흐름제어문 when
+- 상수의 사용 이유
+- Unit과 Nothing
+
+
+https://whyprogrammer.tistory.com/560       -> 자료형 정리 블로그
+https://www.youtube.com/watch?v=-GsrYvZoAdA -> 컴퓨터의 데이터 저장 방법 (1.1+0.1이 1.2가 아닌 이유)
+https://readystory.tistory.com/143          -> Unit, Nothing의 차이
+https://shinjekim.github.io/kotlin/2019/10/01/Kotlin-%EB%84%90-%EC%95%88%EC%A0%84%EC%84%B1(Null-Safety)/ -> NullSafty 설명

@@ -7,9 +7,8 @@ var changeYes = 100
 
 changeYes = 20
 
-print(changeYes)
-
-
+println(changeYes)
+//
 //2. val 선언하기
 val CHANGE_NO = 100
 println(CHANGE_NO)

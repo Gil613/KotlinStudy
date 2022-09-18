@@ -11,5 +11,5 @@ NullSafty
 Null표현 방법
  - val/var 변수명: 자료형? = null
     -> 자료형?의 모양으로 변수의 '상태'를 표현 한다.
- - val number: Int? = null      -> null 가능
- - val number: Int = 10         -> null 불가능
+ - val number: Int? = null      -> nullable 가능
+ - val number: Int = null       -> null 불가능

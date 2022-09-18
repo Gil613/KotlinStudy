@@ -25,6 +25,7 @@ var b: Int = 1
 println(a)
 a++
 println(a)
+
 println(b)
 ++b
 println(b)

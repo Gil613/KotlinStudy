@@ -1,10 +1,10 @@
 1. 변수
 - var (variable), 변경 가능한 변수
-- val (value), 변경이 불가능한 변수
+- val (value), 변경이 불가능한 변수 -> 상수
 
 2. 선언 방법
 - var school
-- var school
+- val school
 
 3. 값 할당 방법
 - var school = "학교"
@@ -15,10 +15,8 @@
 val을 선언 할 때는 대문자로 선언
 val SCHOOL = "학교"
 var을 선언 할 때에는 소문자로 선언
-var phoneNumber = "010-1234-5678"
 - var의 네이밍은 카멜케이스 사용
 - val의 네이밍은 스네이크스타일 사용
-
 
 5. 정렬 단축키
 ctrl + alt + l

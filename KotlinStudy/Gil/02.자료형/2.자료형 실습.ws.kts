@@ -10,15 +10,17 @@ val DOUBLE: Double = 10.0
 //Type mismatch: inferred type is String but Byte was expected
 //val WRONGBYTE: Byte = "안녕하세요"
 //The floating-point literal does not conform to the expected type Float
-//val FLOAT: Float = 10.0 -> val FLOAT: Float = 10.0F, Float의 경우 할당하련느 값 뒤에 f를 기입해야한다.
+//val FLOAT: Float = 10.0F -> val FLOAT: Float = 10.0F, Float의 경우 할당하련느 값 뒤에 f를 기입해야한다.
 
 //타입추론
 val number1 = 10 // = Int
 val number2 = 10.0 // = Double
 
+
 //논리형
 val TRUE: Boolean = true
 val FALSE: Boolean = false
+
 
 //문자, 문자열
 val CHAR: Char = '가'
