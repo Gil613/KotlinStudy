@@ -2,7 +2,6 @@
 val number: Int? = null
 println(number)
 
-
 //Null can not be a value of a non-null type Int
 //val number2: Int = null
 //println(number2)
@@ -13,6 +12,7 @@ val number4: Int? = 10
 //Operator call corresponds to a dot-qualified call 'number3.plus(number4)' which is not allowed on a nullable receiver 'number3'.
 //Type mismatch: inferred type is Int? but Int was expected
 //val number5: Int = number3 + number4
+//var number5: Int? = number3+ number4
 //println(number5)
 
 

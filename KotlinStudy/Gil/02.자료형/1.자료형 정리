@@ -26,7 +26,7 @@ https://whyprogrammer.tistory.com/560
 3. 논리형
     - Boolean (True, False)
 
-4. 문자형(char)
+4. 문자형(Char)
     - 하나의 글자
     - 'A', '가'
 
@@ -38,7 +38,7 @@ https://whyprogrammer.tistory.com/560
 6. 자료형 추론 ( 변수 선언 시 자료형을 언급해줘야 한다.)
  var changeYes = 100
  => var changeYes: Int = 100
- var 변수명 : 자료형 = 값
+ var 변수명: 자료형 = 값
  하지만 자료형을 적지 않은 상태의 변수를 선언한 var changeYes = 100 형태,
  즉 정수의 경우 Kotlin에서는 Int로 추론한다.
 
@@ -48,11 +48,11 @@ https://whyprogrammer.tistory.com/560
  var number3 = 0X100    -> 16진수
  var number4 = 200u     -> UByte
 
- var bigNumber : Int = 1359713867318 -> 보기 힘들다
- var bigNumber : Int = 1_359_713_867_318 -> _를 사용해서 자리수를 표현 할 수 있다.
+ var bigNumber: Int = 1359713867318 -> 보기 힘들다
+ var bigNumber: Int = 1_359_713_867_318 -> _를 사용해서 자리수를 표현 할 수 있다.
 
 
-7. Int와 Integer
+7. Int와 Integer -> int, null
 기본형 Int(원시타입) 참조형 Integer(래퍼 타입)은 코틀린에서 따로 구분하지 않는다.
 하지만 JVM에서 실행되는 코틀린도 Integer를 인식한다.
 

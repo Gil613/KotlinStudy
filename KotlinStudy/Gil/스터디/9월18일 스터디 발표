@@ -5,6 +5,8 @@
 - 흐름제어문 when
 - 상수의 사용 이유
 - Unit과 Nothing
+Unit == void
+Nothing -> 함수안의 내용이 잘 못되었을때 실행을 막아주는 개념
 
 
 https://whyprogrammer.tistory.com/560       -> 자료형 정리 블로그

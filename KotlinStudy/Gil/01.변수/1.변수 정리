@@ -1,6 +1,6 @@
 1. 변수
 - var (variable), 변경 가능한 변수
-- val (value), 변경이 불가능한 변수 -> 상수
+- val (value), 변경이 불가능한 변수 -> 상수 고정 값
 
 2. 선언 방법
 - var school

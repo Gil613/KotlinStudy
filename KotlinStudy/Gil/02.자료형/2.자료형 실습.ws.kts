@@ -4,13 +4,14 @@ val SHORT: Short = 10
 val INT: Int = 10
 val LONG: Long = 10
 val DOUBLE: Double = 10.0
-
+var bigNumber: Long = 1_359_713_867_318
 //The integer literal does not conform to the expected type Byte
 //val WRONGBYTE: Byte = 10000
 //Type mismatch: inferred type is String but Byte was expected
 //val WRONGBYTE: Byte = "안녕하세요"
 //The floating-point literal does not conform to the expected type Float
 //val FLOAT: Float = 10.0F -> val FLOAT: Float = 10.0F, Float의 경우 할당하련느 값 뒤에 f를 기입해야한다.
+
 
 //타입추론
 val number1 = 10 // = Int

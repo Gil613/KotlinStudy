@@ -29,7 +29,8 @@ println(a)
 println(b)
 ++b
 println(b)
-
+var
+a?.equals(b) ?: (b === null)
 //비교 연산자 ==, >, <, >=, <=, !=, ===, !==
 var eq: Int = 1
 var eq2: Int = 1
