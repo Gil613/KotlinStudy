@@ -1,3 +1,5 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12931
+
 var n : Int = 123
 var nToString : String = n.toString()
 var nArray = nToString.chunked(1)
