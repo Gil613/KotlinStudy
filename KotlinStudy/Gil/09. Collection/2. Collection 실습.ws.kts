@@ -13,9 +13,11 @@ list2[0] = 3
 println(list2[0])
 list2.removeAt(0)
 println(list2[0])
-
+var list3 = listOf<Int>(1,2,3)
+list3[2] = 4
+println(list3[2])
 //Set
-val set1 = setOf<Int>(1,2,3,3,2,1)
+val set1 = setOf<Int>(3,2,1)
 println(set1)
 
 var set2 = mutableSetOf<Int>(1,2,3,1,1,2)
