@@ -41,4 +41,4 @@ when(number4){
 when(number4){
     in 1..10 -> println("number4 in 1~10")
     in 2..20 -> println("number4 in 11~20")
-}
+    }
