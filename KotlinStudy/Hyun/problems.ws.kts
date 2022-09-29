@@ -43,10 +43,3 @@ fun nullplus(x : Int? , y : Int?) : Int? {
 
 nullplus(3,4)
 println(nullplus(null, 4))
-
-
-var n : Int = 123
-
-var nToString : String = n.toString()
-
-println(nToString)
