@@ -11,7 +11,7 @@ var nSqrt : Double = sqrt(n.toDouble())
 if (nSqrt % 1.0 == 0.0) {
     nSqrt += 1.0
     nSqrt = nSqrt.pow(2)
-    println(nSqrt)
+    println(nSqrt.toInt())
 }
 else {
     println(-1)
