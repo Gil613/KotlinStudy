@@ -16,3 +16,4 @@ if (nSqrt % 1.0 == 0.0) {
 else {
     println(-1)
 }
+

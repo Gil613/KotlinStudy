@@ -1,4 +1,4 @@
-배열
+배열 ( Array )
  - 특정 하나의 변수에 복수개의 값을 할당하고 싶은 경우
  var number: Int = 10 -> 10이라는 값이 number라는 변수에 할당이 된다
  var exam_scores: Int = 100, 98, 75
@@ -26,8 +26,8 @@
  배열을 선언하는 방법 (3)
     - Array<자료형>(크기,{값})
         - var array10 = Array(10,{0}) -> 생략을 했을 경우에는 디폴트 값의 자료형으로 정해진다.
-        - var array11 = Array<Int>(10,{0})
-        - var array12 = Array<String>(10,{"Hi"})
+        - var array11 = Array<Int>(10,{0}) [0,0,0,0,0,0....]
+        - var array12 = Array<String>(10,{"Hi"}) ["Hi",......]
 
  배열에 값을 넣는 방법
     - 배열명[index] = 값

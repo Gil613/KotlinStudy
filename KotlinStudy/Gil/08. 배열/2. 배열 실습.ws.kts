@@ -22,6 +22,9 @@ val score3: Int = 80
 var examScores = arrayOf<Int>(score1, score2, score3)
 var examScores1 = Array<Int>(3,{0})
 
+val score5: Int = 50
+examScores[0] = score5
+examScores.contentToString()
 val score4 = examScores[0]
 println(score4)
 
