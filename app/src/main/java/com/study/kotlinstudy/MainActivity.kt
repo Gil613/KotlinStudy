@@ -9,7 +9,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import com.study.kotlinstudy.databinding.ActivityMainBinding
+import com.study.KotlinStudy.R
+import com.study.KotlinStudy.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
